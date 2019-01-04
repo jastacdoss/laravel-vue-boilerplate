@@ -15,6 +15,12 @@
 
  */
 
+// Import custom variables
+@import '_custom_variables.scss';
+
+// Import bootstrap core :: moved from dashboard-plugin import
+@import '~bootstrap/scss/bootstrap.scss';
+
 @import 'now-ui-dashboard/variables';
 @import 'now-ui-dashboard/mixins';
 

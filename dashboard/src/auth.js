@@ -52,6 +52,7 @@ class Auth {
      * @returns {boolean}
      */
     check () {
+        console.log('check');
         return !! this.token;
     }
 
@@ -75,11 +76,8 @@ class Auth {
         // Define role names
         let roles = {
             0: 'guest',
-            1: 'controller',
-            2: 'bidder',
-            3: 'arearep',
-            4: 'admin',
-            5: 'super'
+            1: 'admin',
+            2: 'super'
         }
 
         // If user exists return their role

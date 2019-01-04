@@ -1,0 +1,182 @@
+@import 'now-ui-dashboard/variables';
+
+.dashboard {
+  thead {
+    font-size: 0.8em;
+  }
+}
+.panel-header-sm {
+  height: 50px;
+  padding-top: 50px;
+}
+
+/** CRUD RESULTS STYLE */
+.results {
+  &.table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    thead {
+      background-color: $primary-3;
+      color: $white-color;
+
+      a, a:hover, a:active, a:visited {
+        color: $white-color;
+      }
+    }
+
+    td,th {
+      padding: 0.3em;
+      font-size: 0.8em;
+      border: thin solid $gray-4;
+    }
+
+    th {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+  }
+  .head {
+    background-color: $primary-4;
+    color: $white-color;
+    font-weight: bold;
+  }
+  .subhead {
+    background-color: $primary-1;
+    color: $white-color;
+    font-weight: bold;
+  }
+  .deleted {
+    background-color: $opacity-gray-8;
+    color: $gray-1;
+  }
+}
+
+/** ADD DETAILS */
+.add-details {
+  position: relative;
+  float: right;
+  //width: 2em;
+  padding: 0em 0.5em;
+  height: 1.5em;
+  background-color: $success-2;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+  text-align: center;
+  &:hover {
+    background-color: $success-1;
+  }
+}
+
+
+/** MODAL STYLE - ELEMENT */
+.el-dialog {
+  min-height: 25vh;
+
+  .el-dialog__header {
+    background-color: $primary-2;
+    color: $white-color;
+    padding: 0.8em 2em;
+
+    .el-dialog__title {
+      color: $white-color;
+      font-weight: bold;
+      font-size: 1.4em;
+    }
+
+    .el-dialog__headerbtn {
+      top: 12px;
+      right: 12px;
+    }
+  }
+}
+
+/** List Group Style **/
+.list-group-item-primary {
+  color: $white-color;
+  background-color: $primary-3;
+}
+.list-group-item-info {
+  color: $white-color;
+  background-color: $gray-1;
+}
+
+///** PANEL HEADER BACKGROUND */
+//.panel-header {
+//  background: #141E30; /* fallback for old browsers */
+//  background: -webkit-gradient(linear, left top, right top, from(#0c2646), color-stop(60%, #204065), to(#2a5788));
+//  background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+//}
+
+/* MISCELLANEOUS MODIFIERS */
+.bg-lightgray {
+  background-color: lightgray;
+}
+.bg-lightblue {
+  background-color: $danger-0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-help {
+  cursor: help;
+}
+.el-dialog {
+  // Tighten up ElementUI dialog
+  .el-dialog__body {
+    padding: 0.5em 1.5em;
+  }
+  .el-dialog__footer {
+    padding: 0.5em 1.5em;
+  }
+}
+
+// Resize and tighten up ElementUI select (multi-select)
+.el-select-dropdown {
+  margin-top: -0.3em !important;
+}
+.el-select {
+  .el-input__inner {
+    height: 30px !important;
+  }
+  .el-select__tags {
+    padding-top: 0.6em;
+  }
+}
+
+/* LOADING SPINNER */
+.loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  font-size: 10em;
+  color: $primary-3;
+  margin-left: -50px;
+  margin-top: -100px;
+  z-index: 1;
+
+  &.loading-spinner-md {
+    font-size: 5em;
+    margin-left: -25px;
+    margin-top: -15px;
+  }
+
+  &.loading-spinner-sm {
+    font-size: 2em;
+    margin-left: -10px;
+    margin-top: -20px;
+  }
+}
+.loading {
+  &.no-height {
+    height: 100%;
+  }
+  height: 70vh;
+  pointer-events: none;
+  opacity: 0.3;
+}

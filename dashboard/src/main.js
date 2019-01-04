@@ -79,6 +79,7 @@ router.beforeEach((to, from, next) => {
       return;
     }
   }
+  next();
 });
 
 /* eslint-disable no-new */

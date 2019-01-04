@@ -59,7 +59,7 @@ let authPages = {
 const routes = [
   {
     path: '/',
-    redirect: '/dashboard',
+    redirect: '/login',
     name: 'Home'
   },
   pagesMenu,
@@ -68,11 +68,13 @@ const routes = [
     path: '/',
     component: DashboardLayout,
     redirect: '/dashboard',
-    name: 'Dashboard',
     children: [
       {
         path: 'dashboard',
         name: 'Dashboard',
+        meta: {
+          auth: true
+        },
         components: {default: Dashboard, header: DashboardHeader}
       },
       {
