@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fb7da3b-ad60-48ef-afab-dde53608c570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/crypto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9f90aae8-4fa1-4a38-8d75-2dfbf14efa26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/css/now-ui-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/css/now-ui-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/documentation/img/tim-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Calendar/Calendar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Calendar/CalendarHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Calendar/CalendarRoute.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Charts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Buttons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/GridSystem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Headers/SweetAlertHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Icons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Notifications.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Panels.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/SweetAlert.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Components/Typography.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Dashboard/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Dashboard/DashboardHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Dashboard/Stats/Task.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Dashboard/Stats/TaskList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/DefaultHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ExtendedForms.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/RegularForms.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ValidationForms.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ValidationForms/LoginForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ValidationForms/RangeValidationForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ValidationForms/RegisterForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/ValidationForms/TypeValidationForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/Wizard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/Wizard/FirstStep.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/Wizard/SecondStep.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Forms/Wizard/ThirdStep.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/ContentFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/DashboardLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/Extra/MobileMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/Extra/UserMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/LoadingMainPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Layout/TopNavbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/API_KEY.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/FullScreenMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/GoogleMaps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/VectorMaps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/VectorMapsHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/WorldMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Maps/world_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/AuthLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/Lock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/Pricing.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/TimeLinePage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/UserProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/UserProfile/EditProfileForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Pages/UserProfile/UserCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Tables/ExtendedTables.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Tables/ExtendedTables/ShoppingTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Tables/PaginatedTables.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Tables/RegularTables.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Tables/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Widgets.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/fonts/nucleo-outline.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/fonts/nucleo-outline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/fonts/nucleo-outline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/fonts/nucleo-outline.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/AU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/BR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/DE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/GB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/RO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/US.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/balmain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/default-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/emilyz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/icon-vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/image_placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/james.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/mike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/now-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/prada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/img/saint-laurent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/element_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_checkboxes-radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_example-pages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_nucleo-outline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_pills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_popups.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-chart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-collapse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-contributions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-info-area.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-lock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-signup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-stats-mini.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-stats.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-subcategories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/cards/_card-wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_date_picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/element-ui-plugins/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/mixins/_wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-bootstrap-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-bootstrap-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-card-wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-jquery.jvectormap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard/plugins/_plugin-sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/AnimatedNumber.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Badge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Breadcrumb/Breadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Breadcrumb/BreadcrumbItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Breadcrumb/RouteBreadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Cards/Card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Cards/StatsCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Charts/BarChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Charts/LineChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Charts/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Collapse/Collapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Collapse/CollapseItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Dropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Inputs/Checkbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Inputs/IconCheckbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Inputs/Radio.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Inputs/formGroupInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/LoadingPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Modal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Navbar/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Navbar/NavbarToggleButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/NotificationPlugin/Notification.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/NotificationPlugin/Notifications.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/NotificationPlugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Pagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Progress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/SidebarPlugin/SideBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/SidebarPlugin/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/SidebarPlugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Slider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Tabs/Tab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Tabs/Tabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Timeline/TimeLine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Timeline/TimeLineItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Wizard/Wizard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Wizard/WizardTab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/Wizard/throttle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/WorldMap/AsyncWorldMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/WorldMap/WorldMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/WorldMap/world_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/dashboard-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/globalComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/globalDirectives.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Dashboard/Charts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/AuthLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/Components/Content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/Components/ContentFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/Components/MobileMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/Components/TopNavbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/Components/UserMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/DefaultHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Layout/HeaderChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Lock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/NotFoundPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/UserProfile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/UserProfile/EditProfileForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/pages/UserProfile/UserCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/src/routes/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_01_04_151413_add-role-to-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htdocs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/403.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/503.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/passport/AuthorizedClients.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/passport/Clients.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/passport/PersonalAccessTokens.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devilbox" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devilbox" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devilbox" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crypto_crypto: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Content.vue</find>
+      <find>AuthLayout</find>
+      <find>DashboardHeader</find>
+      <find>ComponentsMenu</find>
+      <find>componentsMenu</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/dashboard/src/pages</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/config/auth.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/dashboard/src/main.js" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardLayout.vue" />
+        <option value="$PROJECT_DIR$/dashboard/src/pages/NotFoundPage.vue" />
+        <option value="$PROJECT_DIR$/dashboard/src/routes/routes.js" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/dashboard/vue.config.js" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_04_151413_add-role-to-user.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="124" />
+    <option name="y" value="23" />
+    <option name="width" value="2341" />
+    <option name="height" value="1016" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/UserProfile" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout/Components" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dashboard/src" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages" />
+      <recent name="$PROJECT_DIR$/dashboard/src/Dashboard" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fb7da3b-ad60-48ef-afab-dde53608c570" name="Default Changelist" comment="" />
+      <created>1546609179590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546609179590</updated>
+      <workItem from="1546609180992" duration="5457000" />
+      <workItem from="1546615708487" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5594000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="124" y="23" width="2341" height="1016" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460045" visible="true" weight="0.09873858" />
+      <window_info id="Structure" order="1" sideWeight="0.5038002" side_tool="true" weight="0.25774425" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5053996" side_tool="true" weight="0.18625894" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32829374" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" weight="0.2937365" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49840257" weight="0.32822967" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827735" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159746" side_tool="true" weight="0.39891893" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49893504" weight="0.41666666" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32538167" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32792208" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.058286212" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.14614774" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#491#599#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/DashboardSAMPLE/Charts.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/dashboard-plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#752#800#0" expanded="true" />
+            <element signature="e#1063#1257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Layout/AuthLayout.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Layout/DefaultHeader.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Dashboard/Charts.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Login.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#276#578#0" expanded="true" />
+            <element signature="e#323#348#0" expanded="true" />
+            <element signature="e#375#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="261" column="25" lean-forward="true" selection-start-line="261" selection-start-column="25" selection-end-line="261" selection-end-column="25" />
+          <folding>
+            <element signature="e#9023#9197#0" expanded="true" />
+            <element signature="e#9216#12378#0" expanded="true" />
+            <element signature="e#9234#9376#0" expanded="true" />
+            <element signature="e#9404#12368#0" expanded="true" />
+            <element signature="e#9443#10171#0" expanded="true" />
+            <element signature="e#9468#9696#0" expanded="true" />
+            <element signature="e#9724#9910#0" expanded="true" />
+            <element signature="e#9939#10161#0" expanded="true" />
+            <element signature="e#10204#10356#0" expanded="true" />
+            <element signature="e#10368#10524#0" expanded="true" />
+            <element signature="e#10536#10692#0" expanded="true" />
+            <element signature="e#10704#10864#0" expanded="true" />
+            <element signature="e#10876#11036#0" expanded="true" />
+            <element signature="e#11048#11200#0" expanded="true" />
+            <element signature="e#11247#11531#0" expanded="true" />
+            <element signature="e#11543#11810#0" expanded="true" />
+            <element signature="e#11822#12088#0" expanded="true" />
+            <element signature="e#12117#12360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Layout/Components/TopNavbar.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/NotFoundPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/UserProfile/EditProfileForm.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/UserProfile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#383#450#0" expanded="true" />
+            <element signature="e#401#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#160#172#0" expanded="true" />
+            <element signature="e#718#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+            <element signature="e#637#718#0#PHP" expanded="true" />
+            <element signature="e#761#840#0#PHP" expanded="true" />
+            <element signature="e#845#940#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_04_151413_add-role-to-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9f90aae8-4fa1-4a38-8d75-2dfbf14efa26/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#696#827#2#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9f90aae8-4fa1-4a38-8d75-2dfbf14efa26/schema/crypto_crypto/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
