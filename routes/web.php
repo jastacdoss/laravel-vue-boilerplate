@@ -13,8 +13,8 @@
 
 
 /** ADMIN CONTROLLER */
-Route::get('/dashboard', 'HomeController@admin');
-Route::get('/dashboard/{any}', 'HomeController@admin')->where('any', '.*');
+Route::get('/dashboard', 'HomeController@home');
+Route::get('/dashboard/{any}', 'HomeController@home')->where('any', '.*');
 
 Route::get('/', function () {
     return view('welcome');

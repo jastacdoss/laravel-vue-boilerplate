@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb7da3b-ad60-48ef-afab-dde53608c570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/_custom_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/pages/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/src/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +47,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="165">
               <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#constructor#0;n#Auth#0" expanded="true" />
@@ -66,8 +62,6 @@
                 <element signature="n#!!doc;n#check#0;n#Auth#0" expanded="true" />
                 <element signature="n#!!doc;n#getUser#0;n#Auth#0" expanded="true" />
                 <element signature="n#!!block;n#getUser#0;n#Auth#0" expanded="true" />
-                <element signature="e#1778#1827#0" expanded="true" />
-                <element signature="e#1864#2048#0" expanded="true" />
                 <element signature="n#!!block;n#role#0;n#Auth#0" expanded="true" />
               </folding>
             </state>
@@ -77,30 +71,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="525">
               <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
                 <element signature="e#141#199#0" expanded="true" />
                 <element signature="e#700#928#0" expanded="true" />
                 <element signature="e#812#921#0" expanded="true" />
-                <element signature="e#946#1311#0" expanded="true" />
-                <element signature="e#1030#1141#0" expanded="true" />
-                <element signature="e#1147#1229#0" expanded="true" />
-                <element signature="e#1235#1305#0" expanded="true" />
-                <element signature="e#1294#1359#0" expanded="true" />
-                <element signature="e#1554#1582#0" expanded="true" />
-                <element signature="e#1648#1766#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <state relative-caret-position="262">
+              <caret line="69" selection-start-line="69" selection-end-line="82" selection-end-column="3" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
                 <element signature="e#107#128#0" expanded="true" />
@@ -117,11 +104,18 @@
                 <element signature="e#1024#1044#0" expanded="true" />
                 <element signature="e#1431#1500#0" expanded="true" />
                 <element signature="e#1504#1531#0" expanded="true" />
-                <element signature="e#1767#1841#0" expanded="true" />
-                <element signature="e#1830#1879#0" expanded="true" />
-                <element signature="e#1883#1993#0" expanded="true" />
-                <element signature="e#2047#2069#0" expanded="true" />
-                <element signature="e#2082#2451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,18 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="930">
               <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
-              <folding>
-                <element signature="e#1371#1486#0" expanded="true" />
-                <element signature="e#1544#1624#0" expanded="true" />
-                <element signature="e#1885#1950#0" expanded="true" />
-                <element signature="e#2397#2470#0" expanded="true" />
-                <element signature="e#2699#2964#0" expanded="true" />
-                <element signature="e#2732#2945#0" expanded="true" />
-                <element signature="e#3037#3112#0" expanded="true" />
-                <element signature="e#3154#3225#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +154,6 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/dashboard/src/pages/Layout/DashboardLayout.vue" />
         <option value="$PROJECT_DIR$/dashboard/src/pages/NotFoundPage.vue" />
         <option value="$PROJECT_DIR$/routes/api.php" />
@@ -184,6 +167,8 @@
         <option value="$PROJECT_DIR$/dashboard/src/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard.scss" />
         <option value="$PROJECT_DIR$/dashboard/src/main.js" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -289,7 +274,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
+    <option name="x" value="655" />
     <option name="y" value="23" />
     <option name="width" value="1376" />
     <option name="height" value="1016" />
@@ -302,13 +287,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
@@ -350,10 +358,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="laravel-vue-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-vue-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,19 +380,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/dashboard/src/assets/sass" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/UserProfile" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout/Components" />
+      <recent name="$PROJECT_DIR$/dashboard/src/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dashboard/src" />
       <recent name="$PROJECT_DIR$/dashboard/src/pages" />
       <recent name="$PROJECT_DIR$/dashboard/src/Dashboard" />
       <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dashboard/src/assets/sass" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/dashboard/src/pages/UserProfile" />
-      <recent name="$PROJECT_DIR$/dashboard/src/pages/Layout/Components" />
-      <recent name="$PROJECT_DIR$/dashboard/src/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,18 +425,19 @@
       <updated>1546609179590</updated>
       <workItem from="1546609180992" duration="5457000" />
       <workItem from="1546615708487" duration="323000" />
-      <workItem from="1546616188403" duration="2469000" />
+      <workItem from="1546616188403" duration="2703000" />
+      <workItem from="1546664195774" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8249000" />
+    <option name="totallyTimeSpent" value="8549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="23" width="1376" height="1016" extended-state="0" />
+    <frame x="655" y="23" width="1376" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460045" visible="true" weight="0.17166416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460045" visible="true" weight="0.17391305" />
       <window_info id="Structure" order="1" sideWeight="0.5038002" side_tool="true" weight="0.25774425" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5053996" side_tool="true" weight="0.18625894" />
@@ -576,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -667,46 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!block;n#constructor#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!doc;n#login#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!block;n#login#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!doc;n#logout#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!block;n#logout#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!doc;n#check#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!doc;n#getUser#0;n#Auth#0" expanded="true" />
-            <element signature="n#!!block;n#getUser#0;n#Auth#0" expanded="true" />
-            <element signature="e#1778#1827#0" expanded="true" />
-            <element signature="e#1864#2048#0" expanded="true" />
-            <element signature="n#!!block;n#role#0;n#Auth#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-            <element signature="e#141#199#0" expanded="true" />
-            <element signature="e#700#928#0" expanded="true" />
-            <element signature="e#812#921#0" expanded="true" />
-            <element signature="e#946#1311#0" expanded="true" />
-            <element signature="e#1030#1141#0" expanded="true" />
-            <element signature="e#1147#1229#0" expanded="true" />
-            <element signature="e#1235#1305#0" expanded="true" />
-            <element signature="e#1294#1359#0" expanded="true" />
-            <element signature="e#1554#1582#0" expanded="true" />
-            <element signature="e#1648#1766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/assets/sass/now-ui-dashboard.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -724,27 +689,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Login.vue">
+    <entry file="file://$PROJECT_DIR$/dashboard/src/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
-            <element signature="e#1371#1486#0" expanded="true" />
-            <element signature="e#1544#1624#0" expanded="true" />
-            <element signature="e#1885#1950#0" expanded="true" />
-            <element signature="e#2397#2470#0" expanded="true" />
-            <element signature="e#2699#2964#0" expanded="true" />
-            <element signature="e#2732#2945#0" expanded="true" />
-            <element signature="e#3037#3112#0" expanded="true" />
-            <element signature="e#3154#3225#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!doc;n#login#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!block;n#login#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!doc;n#logout#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!block;n#logout#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!doc;n#check#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!doc;n#getUser#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!block;n#getUser#0;n#Auth#0" expanded="true" />
+            <element signature="n#!!block;n#role#0;n#Auth#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#141#199#0" expanded="true" />
+            <element signature="e#700#928#0" expanded="true" />
+            <element signature="e#812#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/pages/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="74" column="51" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        <state relative-caret-position="262">
+          <caret line="69" selection-start-line="69" selection-end-line="82" selection-end-column="3" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
             <element signature="e#107#128#0" expanded="true" />
@@ -761,11 +757,16 @@
             <element signature="e#1024#1044#0" expanded="true" />
             <element signature="e#1431#1500#0" expanded="true" />
             <element signature="e#1504#1531#0" expanded="true" />
-            <element signature="e#1767#1841#0" expanded="true" />
-            <element signature="e#1830#1879#0" expanded="true" />
-            <element signature="e#1883#1993#0" expanded="true" />
-            <element signature="e#2047#2069#0" expanded="true" />
-            <element signature="e#2082#2451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

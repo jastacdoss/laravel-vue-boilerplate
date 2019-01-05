@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // Fix for Maria default string length issue
+        Schema::defaultStringLength(191);
     }
 
     /**
